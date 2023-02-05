@@ -52,9 +52,8 @@ with col1:
     st.image("https://cdn.vectorstock.com/i/1000x1000/68/44/car-logo-with-circle-hand-colorful-logo-vector-22266844.webp", width=35)
     with col2:
         button4 = st.button('Car Price Predictor')
-        if button4:
-            url = 'https://shubhangsingh6023-hack-ccelerate-car-carpredictor-ih68cr.streamlit.app/'
-            webbrowser.open(url, new=2)
+        url = 'https://shubhangsingh6023-hack-ccelerate-car-carpredictor-ih68cr.streamlit.app/'
+        webbrowser.open(url, new=2)
             
 col1, col2 = st.sidebar.columns([1,12.5])
 with col1:
