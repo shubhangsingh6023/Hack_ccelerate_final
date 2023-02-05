@@ -217,5 +217,5 @@ if button3:
 
 if button5:
     st.header("ABOUT Us")
-    st.write("We are tem of Rajeev Joshi Rishikesh Maurya Shubhang Singh Samanway Ray")
-    st.write("We are currently pursuing my undergraduation in Mechanical Engineering from Indian Institute of Technology Kharagpur.")
+    st.write("We are tem of Rajeev Joshi, Rishikesh Maurya, Shubhang Singh, Samanway Ray and Gourav Parashar")
+    st.write("We are currently pursuing our undergraduation in Mechanical Engineering and Civil Engineering from Indian Institute of Technology Kharagpur.")
