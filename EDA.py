@@ -55,7 +55,7 @@ with col1:
         button4 = st.button('Car Price Predictor')
         if button4:
             webbrowser.open_new_tab(
-                'https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py')
+                'https://shubhangsingh6023-hack-ccelerate-car-carpredictor-rv78cx.streamlit.app/')
             
 col1, col2 = st.sidebar.columns([1,12.5])
 with col1:
