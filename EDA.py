@@ -26,9 +26,9 @@ with col1:
     st.image(image1, width=45)
     with col2:
         st.markdown('<h3 style="color: lightyellow; font-family: courier;">MENU</h3>',
-                        unsafe_allow_html=True)
-url1 = 'https://share.streamlit.io/rajeev1815/microsoft-engage/main/Data_Visualisation.py'
-url2 = 'https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py'
+                         unsafe_allow_html=True)
+# url1 = 'https://share.streamlit.io/rajeev1815/microsoft-engage/main/Data_Visualisation.py'
+# url2 = 'https://share.streamlit.io/rajeev1815/car-predictor-engage/main/CarPredictor.py'
 col1, col2 = st.sidebar.columns([1, 10])
 with col1:
     st.image(
@@ -112,6 +112,10 @@ if ((button3 != True) & (button5 != True)):
                     title='Top Manufacturers in Indian Market')
     st.write(fig1)
 
+    
+if button2:
+            webbrowser.open_new_tab(
+                'https://shubhangsingh6023-hack-ccelerate-data-visualisation-0rqc6y.streamlit.app/')
 if button3:
     st.header("EXPLORATORY DATA ANALYSIS:")
     st.subheader("Here you can view the EDA of given Dataset and queries answered by me on the basis of the dataset.")
