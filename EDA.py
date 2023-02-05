@@ -42,7 +42,7 @@ with col1:
         button2 = st.button('Data Visualization')
         if button2:
             webbrowser.open_new_tab(
-                'https://shubhangsingh6023-hack-ccelerate-data-visualisation-u94y7w.streamlit.app/')
+                'https://shubhangsingh6023-hack-ccelerate-data-visualisation-0rqc6y.streamlit.app/')
         
 with col1:
     st.image("https://media.istockphoto.com/vectors/report-icon-vector-sign-and-symbol-isolated-on-white-background-logo-vector-id1001207390?k=20&m=1001207390&s=170667a&w=0&h=9sctNa8KvgTkKq6dlatFqZElGgsS2lcmaraUES137pw=", width=35)
@@ -55,7 +55,7 @@ with col1:
         button4 = st.button('Car Price Predictor')
         if button4:
             webbrowser.open_new_tab(
-                'https://shubhangsingh6023-hack-ccelerate-car-carpredictor-rv78cx.streamlit.app/')
+                'https://shubhangsingh6023-hack-ccelerate-car-carpredictor-ih68cr.streamlit.app/')
             
 col1, col2 = st.sidebar.columns([1,12.5])
 with col1:
