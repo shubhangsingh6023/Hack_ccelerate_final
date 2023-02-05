@@ -114,8 +114,7 @@ if ((button3 != True) & (button5 != True)):
 
     
 if button2:
-    webbrowser.open_new_tab(
-        'https://shubhangsingh6023-hack-ccelerate-data-visualisation-0rqc6y.streamlit.app/')
+    webbrowser.open_new_tab('https://shubhangsingh6023-hack-ccelerate-data-visualisation-0rqc6y.streamlit.app/')
 if button3:
     st.header("EXPLORATORY DATA ANALYSIS:")
     st.subheader("Here you can view the EDA of given Dataset and queries answered by me on the basis of the dataset.")
